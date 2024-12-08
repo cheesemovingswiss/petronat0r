@@ -7,6 +7,9 @@
 
   h1{
     font-family: "Anton", sans-serif;
+    color: aliceblue;
+    -webkit-text-stroke-width: 1cm;
+    -webkit-text-stroke: #37423a;
   }
 
   body {
