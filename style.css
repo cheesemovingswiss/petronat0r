@@ -70,14 +70,14 @@
   }
 
   .pb{
-    color: #386150;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #5c9489;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
     margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -300%);
+    transform: translate(-50%, -80%);
     text-align: center;
   }
   
