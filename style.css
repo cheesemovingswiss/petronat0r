@@ -24,7 +24,8 @@
     border: #31493C solid;
     border-radius: 1cm;
     border-width: 0.2cm;
-    -webkit-text-fill-color: #7A9E7E;
+    -webkit-text-fill-color: #fff;
+    background-color: #7A9E7E;
   }
 
 
@@ -71,12 +72,12 @@
   .pb{
     color: #386150;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    position: relative;
     margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -300%);
+    text-align: center;
   }
   
