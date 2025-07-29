@@ -14,70 +14,26 @@
 
 
   body {
-    background-color: #001A23;
+    background-color: #2090b6;
   }
 
-  .pidor{
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    font-size: x-large;
+  .words {
+    color: white;
+    font-size: 30px;
     text-align: center;
-    border: #31493C solid;
-    border-radius: 1cm;
-    border-width: 0.2cm;
-    -webkit-text-fill-color: #fff;
-    background-color: #7A9E7E;
+    margin-top: 17%;
+    font-family: "Ubuntu", sans-serif;
   }
-
-
-  .bn31 {    
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, 50%);
-    background-image: linear-gradient(to right, #006175 0%, #00a950 100%);
-    border-radius: 40px;
-    box-sizing: border-box;
-    color: #00a84f;
-    display: block;
-    height: 50px;
-    font-size: 1.4em;
-    padding: 4px;
-    text-decoration: none;
-    width: 11em;
-    z-index: 2;
-    font-family: "Ubuntu Mono", monospace;
+  .gr{
+    background-color: #f9f9f9;
+    color: rgb(4, 0, 255);
+    font-size: 20px;
+    position: relative;
+    margin-left: 95%;
+    bottom: 112%;
+    font-family: "Ubuntu", sans-serif;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
   }
-  
-  .bn31:hover {
-    color: #fff;
-  }
-  
-  .bn31 .bn31span {
-    align-items: center;
-    background: #0e0e10;
-    border-radius: 40px;
-    display: flex;
-    justify-content: center;
-    height: 100%;
-    transition: background 0.5s ease;
-    width: 100%;
-  }
-  
-  .bn31:hover .bn31span {
-    background: transparent;
-  }
-
-  .pb{
-    color: #5c9489;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -80%);
-    text-align: center;
-  }
-  
