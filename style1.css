@@ -9,7 +9,15 @@ body
   font-style: normal;
 }
 
-
+.leek {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    width: 498px;
+    height: 399px;
+    animation: spin 10s linear infinite;
+}
 .time
 {
     position: absolute;
