@@ -10,26 +10,7 @@ body
 }
 
 
-.time
-{
-    position: absolute;
-    bottom: 20%;
-    right: 40%;
-    color: rgb(0, 255, 64);
-    font-size: 24px;
-    font-family: 'Ubuntu', sans-serif;
-    text-shadow: 2px 2px 4px rgb(0, 0, 0);
-}
-.timer
-{
-    position: absolute;
-    bottom: 15%;
-    left: 47.5%;
-    color: rgb(0, 255, 64);
-    font-size: 24px;
-    font-family: 'Ubuntu', sans-serif;
-    text-shadow: 2px 2px 4px rgb(0, 0, 0);
-}
+
 .why-image {
   position: absolute;
   top: 10px;
@@ -56,4 +37,24 @@ body
     color: rgb(0, 255, 64);
     font-size: 20px;
     font-family: 'Ubuntu', sans-serif;
+}
+
+.time, .timer {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(0, 255, 64);
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 70vh;
+    max-width: 100vw;
 }
