@@ -18,25 +18,7 @@
   </video>
 <h1 class="time">You have been Leekspinning for:</h1>
 <h1 class="timer" id="timer">00:00:00</h1>
-=======
-<img src="leek.gif" alt="Leek" class="leek">
-<h1 class="time">Youve been Leekspinning for:</h1>
-<h2 class="timer" id="timer">00:00:00</h2>
-<script>
-  const timerElement = document.getElementById('timer');
-  let startTime = Date.now();
 
-  function updateTimer() {
-    const elapsed = Date.now() - startTime;
-    const hours = String(Math.floor(elapsed / 3600000)).padStart(2, '0');
-    const minutes = String(Math.floor((elapsed % 3600000) / 60000)).padStart(2, '0');
-    const seconds = String(Math.floor((elapsed % 60000) / 1000)).padStart(2, '0');
-    timerElement.textContent = `${hours}:${minutes}:${seconds}`;
-  }
-
-  setInterval(updateTimer, 1000);
-</script>
->>>>>>> 387505ee5b8e6f29c9d94ef5b770183000b02fde
 <a href="why.html" class="why">
 <img src="info.svg" alt="Why?" class="why-image">
 </a>
